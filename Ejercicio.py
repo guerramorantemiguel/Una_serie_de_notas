@@ -14,3 +14,12 @@ for i in range (1,m):
 print("— CANTIDAD DE OBSERVACIONES --") 
 n = caracteristica.count() 
 print("Cantidad de observaciones = " + str(n)) 
+
+print ("VALORES MÍNIMOS")  
+valoresOrdenados = caracteristica.sort_values()    
+print("Valor mínimo: "+str(valoresOrdenados [0]))  
+  
+print ("VALORES MÁXIMOS")  
+valoresOrdenados = caracteristica.sort_values()  
+print("Valor máximo: " +  
+str(valoresOrdenados[len(valoresOrdenados)-1])) 
