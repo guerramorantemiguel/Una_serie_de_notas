@@ -15,10 +15,7 @@ print("— CANTIDAD DE OBSERVACIONES --")
 n = caracteristica.count() 
 print("Cantidad de observaciones = " + str(n)) 
 
-print ("VALORES MÍNIMOS")  
-valor_minimo = caracteristica.sort_values()    
-print("Valor mínimo: "+str(valoresOrdenados [0]))  
-  
+
 print ("VALORES MÁXIMOS")  
 valor_maximo = caracteristica.sort_values()  
 print("Valor máximo: " +  
@@ -33,4 +30,26 @@ for num in notas_lectura:
 for num in notas_escritura:
   if num > valor_maximo or valor_maximo == None:
   print(valor_maximo)
+
+print ("VALORES MÍNIMOS")  
+valor_minimo = caracteristica.sort_values()    
+print("Valor mínimo: "+str(valoresOrdenados [0])) 
+
+for num in notas_mates:
+  if num < valor_minimo or valor_minimo == None:
+  print(valor_minimo)
+for num in notas_lectura:
+  if num < valor_minimo or valor_minimo == None:
+  print(valor_minimo)
+for num in notas_escritura:
+  if num < valor_minimo or valor_minimo == None:
+  print(valor_minimo)
+
+print("NOTAS MEDIAS") 
+suma_de_las_notas_mates = sum(notas_mates)
+media_notas_mates
+  
+  mediaAritmetica = sumaValorObservaciones / n  
+  
+   return mediaAritmetica 
   
