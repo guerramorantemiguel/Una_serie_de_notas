@@ -16,10 +16,21 @@ n = caracteristica.count()
 print("Cantidad de observaciones = " + str(n)) 
 
 print ("VALORES MÍNIMOS")  
-valoresOrdenados = caracteristica.sort_values()    
+valor_minimo = caracteristica.sort_values()    
 print("Valor mínimo: "+str(valoresOrdenados [0]))  
   
 print ("VALORES MÁXIMOS")  
-valoresOrdenados = caracteristica.sort_values()  
+valor_maximo = caracteristica.sort_values()  
 print("Valor máximo: " +  
 str(valoresOrdenados[len(valoresOrdenados)-1])) 
+
+for num in notas_mates:
+  if num > valor_maximo or valor_maximo == None:
+  print(valor_maximo)
+for num in notas_lectura:
+  if num > valor_maximo or valor_maximo == None:
+  print(valor_maximo)
+for num in notas_escritura:
+  if num > valor_maximo or valor_maximo == None:
+  print(valor_maximo)
+  
