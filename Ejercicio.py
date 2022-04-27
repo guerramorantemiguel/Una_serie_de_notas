@@ -47,9 +47,14 @@ for num in notas_escritura:
 
 print("NOTAS MEDIAS") 
 suma_de_las_notas_mates = sum(notas_mates)
-media_notas_mates
-  
-  mediaAritmetica = sumaValorObservaciones / n  
-  
-   return mediaAritmetica 
-  
+media_notas_mates = suma_de_las_notas_mates/1
+print("La nota media en mates es{}".format(media_notas_mates))
+
+suma_de_las_notas_lectura = sum(notas_lectura)
+media_notas_lectura = suma_de_las_notas_lectura/1
+print("La nota media en lectura es{}".format(media_notas_lectura))
+
+suma_de_las_notas_escritura = sum(notas_escritura)
+media_notas_escritura = suma_de_las_notas_escritura/1
+print("La nota media en escritura es{}".format(media_notas_escritura))
+
