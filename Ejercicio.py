@@ -10,3 +10,7 @@ m = len(notas_mates)
 for i in range (1,m):
   diccionario = {"notas_mates":notas_mates, "notas_lectura":notas_lectura, "notas_escritura":notas_escritura}
   print(1)
+
+print("— CANTIDAD DE OBSERVACIONES --") 
+n = caracteristica.count() 
+print("Cantidad de observaciones = " + str(n)) 
