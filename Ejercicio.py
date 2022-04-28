@@ -58,3 +58,13 @@ suma_de_las_notas_escritura = sum(notas_escritura)
 media_notas_escritura = suma_de_las_notas_escritura/1
 print("La nota media en escritura es{}".format(media_notas_escritura))
 
+def Mediana(caracteristica):  
+  mediana = int(1/2)
+  mediana_mates = (notas_mates[mediana] + notas_mates[mediana + 1])/2
+  print("La mediana de todas las notas de matemáticas es:{}".format(mediana_mates))
+
+  mediana_lectura = (notas_lectura[mediana] + notas_lectura[mediana + 1])/2
+  print("La mediana de todas las notas de lectura es:{}".format(mediana_lectura))
+
+  mediana_escritura = (notas_escritura[mediana] + nota_escritura[mediana + 1])/2
+  print("La mediana de todas las notas de escritura es:{}".format(mediana_escritura))
