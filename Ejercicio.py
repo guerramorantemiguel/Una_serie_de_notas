@@ -68,3 +68,13 @@ def Mediana(caracteristica):
 
   mediana_escritura = (notas_escritura[mediana] + nota_escritura[mediana + 1])/2
   print("La mediana de todas las notas de escritura es:{}".format(mediana_escritura))
+
+def Moda(caracteristicas):
+  moda_mates = count.(notas_mates)
+  print("La moda de todas las notas de matemáticas es:{}".format(moda_mates))
+
+  moda_lectura = count.(notas_lectura)
+  print("La moda de todas las notas de lectura es:{}".format(moda_lectura))
+
+  moda_escritura = count.(notas_escritura)
+  print("La moda de todas las notas de escritura es:{}".format(moda_escritura))
