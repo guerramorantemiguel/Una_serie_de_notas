@@ -78,3 +78,7 @@ def Moda(caracteristicas):
 
   moda_escritura = count.(notas_escritura)
   print("La moda de todas las notas de escritura es:{}".format(moda_escritura))
+
+def Rango(caracteristicas):
+  print("El rango de las notas de matemáticas, escritura y lectura es:{}".format(valor_maximo - valor_minimo))
+  
